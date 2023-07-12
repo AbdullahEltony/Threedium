@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threedium | Home</title>
+    <link rel="shortcut icon" href="https://www.threedium.io/hubfs/Favicon-DarkBlue.png">
+    <!-------  css files  ------->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body id="el">
+  <!-- statrt header  -->
+  <header class="">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="header__logo">
+        <a href="index.html"><img src="../All_images/Threedium-logo.svg" alt=""></a>
+      </div>
+      <div class="navbar d-flex justify-content-between align-items-center">
+        <ul class="header__minue d-flex">
+          <li class="minue__item minue__item-dropdown">
+            <a class="item-link">INDUSTRIES 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+            <ul class="dropdown-minue">
+              <h5 class="text-black-50 my-3">CATIGORY</h5>
+              <li><a href="watches_jewelrys.html">Watches & Jewelry</a></li>
+              <li><a href="fashion.html">Fashion & Accessories</a></li>
+              <li><a href="furniture.html">Home & Furniture</a></li>
+              <li><a href="automative.html">Automotive & Furniture</a></li>
+              <li><a href="cpg.html">CPG/FMCG</a></li>
+              <li><a href="electronic.html">Electronics</a></li>
+              <li><a href="metaverse.html">Metaverse as a Service</a></li>
+            </ul>
+          </a>
+        </li>
+        <li class="minue__item"><a href="products.html" class="item-link">PRODUCTS</a></li>
+        <li class="minue__item"><a href="solutions.html" class="item-link"> SOLUTIONS</a></li>
+        <li class="minue__item"><a href="about.html" class="item-link">ABOUT</a></li>
+        </ul>
+        <button type="button" class="btn main-btn"><a href="contact.html">Book A Demo</a></button>
+      </div>
+
+        <button class="bar-btn d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i> </button>
+      
+    </div>
+  </header>
+
+  <!-- offCanvas  -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel"></h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body px-0">
+    <div>
+      <ul>
+        <li class="item item-dropdown" onclick="show_minue(this)">
+          <a href="#" class="item-link d-flex align-items-center"><span>INDUSTRIES</span> 
+            <svg class="ms-auto fw-semibold" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
+          </a>
+        </li>
+        
+        <ul class="minue">
+        <h5 class="item">CATIGORY</h5>
+        <li class="item"><a href="watches_jewelrys.html" class="item-link">Watches & Jewelry</a></li>
+        <li class="item"><a href="fashion.html" class="item-link">Fashion & Accessories</a></li>
+        <li class="item"><a href="furniture.html" class="item-link">Home & Furniture</a></li>
+        <li class="item"><a href="automative.html" class="item-link">Automotive & Furniture</a></li>
+        <li class="item"><a href="cpg.html" class="item-link">CPG/FMCG</a></li>
+        <li class="item"><a href="electronic.html" class="item-link">Electronics</a></li>
+        <li class="item"><a href="metaverse.html" class="item-link">Metaverse as a Service</a></li>
+        </ul>
+        <li class="item"><a href="products.html" class="item-link">PRODUCTS</a></li>
+        <li class="item"><a href="solutions.html" class="item-link"> SOLUTIONS</a></li>
+        <li class="item mb-3"><a href="about.html" class="item-link">ABOUT</a></li>
+      </ul>
+      <button type="button" class="btn main-btn ms-2"><a href="Book A Demo"></a></button>
+    </div>
+  </div>
+  </div>
+  <!-- end header  -->
+
+  <!-- move to top button  -->
+  <button type="button" class="btn" id="movTop" onclick="movTop()"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- start home  -->
+  <section id="Home" class="mian-banner">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 col-sm-12">
+          <div class="Home__text-content mt-4 text-center text-md-start hide-1">
+            <h1 class="mb-4">Next-Gen 3D <br> <span class="mx-auto mx-md-0">Hyper Fidelity</span></h1>
+            <p>Threedium combines the tools you need to create, distribute and manage photorealistic 3D and AR experiences on the web so you can increase sales and delight your customers
+            </p>
+            <button type="button" class="btn main-btn mt-5">Talk To Sales</button>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 order-first order-md-last canvas">
+          <div style="height:430px;border-radius:10px;">
+            <iframe style="display:block;margin:0;width:100%;height:100%;border:none;overflow:hidden" src="https://dist.unlimited3d.com/dists/47696/cb9f810f-de09-4f2b-b3d5-22ab927a18bf/"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end home  -->
+
+  <!-- start partener section  -->
+  <section id="Partener">
+    <div class="container">
+      <div class="section-title hide-1">
+        <h2>Our Partners</h2>
+        <p>Global brands rely on Threedium to support their 3D assets and experiences. </p>
+        <span></span>
+      </div>
+      <div class="row hide-1">
+        <div class="col-md-3 col-sm-6">
+          <div class="partener__logo">
+            <img src="../All_images/partener01.webp" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="partener__logo">
+            <img src="../All_images/partener02.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="partener__logo">
+            <img src="../All_images/partener03.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="partener__logo">
+            <img src="../All_images/partener04.webp" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="partener__logo">
+            <img src="../All_images/partener05.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="partener__logo">
+            <img src="../All_images/partener06.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="partener__logo">
+            <img src="../All_images/partener07.webp" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="partener__logo">
+            <img src="../All_images/partener08.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end partener section  -->
+
+  <!-- start what we do section  -->
+  <section id="what-we-do-home">
+    <div class="container">
+      <div class="row"> 
+        <div class="col-lg-8 col-sm-12">
+          <div class="descreptoin text-sm-start text-center hide-1">
+            <h6>WHAT WE DO</h6>
+            <h2>Photorealistic 3D assets you can use to sell across multiple channels</h2>
+            <p>Help customers fully appreciate your products with real-time reflections, authentic textures and accurate colors, and complete consistency across every line. Enjoy a robust 3D commerce UX and workflow - on one platform that's easy to transition to, keeps your 3D assets organized, and integrates with the systems.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end what we do section  -->
+
+  <!-- configration section  -->
+  <section id="configration" class="banner-1">
+    <div class="container">
+      <div class="row hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start">
+            <h4>3D VIEWER & CONFIGURATOR</h4>
+            <p class="mb-5">See and interact with 3D products on your website. Rotate and zoom to view all angles, in any level of detail, so customers can properly assess your product's quality.</p>
+            <button type="button" class="btn main-btn learnMore">Learn more</button>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 order-first order-md-last">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <video class ="rounded" width="100%" height="100%" preload="none"      muted="" loop="" autoplay="" playsinline="">
+              <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/3D%20Configurator%20cropped.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="section-details">
+        <div class="heading text-center"><h1 class="fs-1 mb-4">It's the details that matter…</h1></div>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card text-start" style="background-color:transparent">
+              <img src="../All_images/section-details/HOME-EXPANDER-CUSTOMIZATION.webp" class="card-img-top img-fluid" alt="...">
+              <div class="card-body mt-4">
+                <h5 class="card-title text-white fw-bold fs-4">Show every available option for each product with real-time customization.</h5>
+                <p class="card-text">Configure materials, colors and textures at the click of a button, reducing costs and improving sustainability by removing your need for large sample inventories.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-start" style="background-color:transparent">
+              <img src="../All_images/section-details/HOME-EXPANDER-HOTSPOTS.webp" class="card-img-top img-fluid" alt="...">
+              <div class="card-body mt-4">
+                <h5 class="card-title text-white fw-bold fs-4">Recreate an in-store sales experience using product hotspots.
+                </h5>
+                <p class="card-text">Add annotations on specific areas of each item, using pre-set positioning and zoom to guide customers and help them appreciate every important product feature.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-start" style="background-color:transparent">
+              <img src="../All_images/section-details/HOME-EXPANDER-PLATFORM.webp" class="card-img-top img-fluid" alt="...">
+              <div class="card-body mt-4">
+                <h5 class="card-title text-white fw-bold fs-4">Enjoy effortless inventory management.</h5>
+                <p class="card-text">Simplify organizing your 3D SKUs all from one platform and eliminate friction with other systems. All of your assets can be used on any website and integrate easily with major eCommerce platforms. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+       <div class="row justify-content-center mt-5 pt-5">
+        <div class="col-12 col-lg-9">
+          <div class="bottom-box text-center">
+            <h2 class="fs-1 text-white fw-bold">See how 3D could improve customer experience on your website</h2>
+            <p>Book a demo with the Threedium team to quickly uncover how 3D products and AR experiences could look on your online store:</p>
+            <button type="button" class="btn main-btn mt-3"><a href="contact.html">Book A Demo</a></button>
+            <a href="#"><span><i class="fa-solid fa-arrow-up-long"></i></span></a>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- augmented-reality  -->
+  <section id="ugmented-reality" class="banner-2">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <video class ="rounded" width="100%" height="100%" preload="none"      muted="" loop="" autoplay="" playsinline="">
+              <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/Homepage-RufAR.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start">
+            <h4>AUGMENTED REALITY</h4>
+            <p class="mb-5">SAllow customers to appreciate photorealistic AR experiences without needing to install an app. Simply scan a QR code with any smartphone, and have a to-scale 3D model in the room with you in seconds.</p>
+            <button type="button" class="btn main-btn learnMore">Learn more</button>
+          </div>
+        </div>
+      </div>
+      <div class="section-details">
+        <div class="heading text-center"><h1 class="fs-1 mb-4">It's the details that matter…</h1></div>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card text-start" style="background-color:transparent">
+              <video autoplay="" muted="" playsinline="">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/Farfetch-1.mp4" type="video/mp4">
+            </video>
+              <div class="card-body mt-4">
+                <h5 class="card-title text-white fw-bold fs-4">Remove previous limitations.</h5>
+                <p class="card-text">While most products limit where and how you can use your 3D assets, Threedium’s are fully flexible: customers can tailor their options and purchase straight from the AR experience.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-start" style="background-color:transparent">
+              <video autoplay="" muted="" playsinline="">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/Furo.mp4" type="video/mp4">
+              </video>             
+              <div class="card-body mt-4">
+                <h5 class="card-title text-white fw-bold fs-4">Offer 3D experiences offline too.
+                </h5>
+                <p class="card-text">Use QR codes on billboards, business cards, at events, in magazines and any other location to give your customers the same incredible AR experience wherever they are.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-start" style="background-color:transparent">
+              <video autoplay="" muted="" playsinline="">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/Epson%20Printer%20AR%20Cut%20Scene%201.mp4" type="video/mp4">
+              </video>              
+              <div class="card-body mt-4">
+                <h5 class="card-title text-white fw-bold fs-4">Animated AR experiences to better understand product functionalities.</h5>
+                <p class="card-text">Put your product front and center whilst providing a fully immersive experience natively within the browser - no need for an app.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       <div class="row justify-content-center mt-5 pt-5">
+        <div class="col-12 col-lg-9">
+          <div class="bottom-box text-center">
+            <h2 class="fs-1 text-white fw-bold">See how 3D could improve customer experience on your website</h2>
+            <p>Book a demo with the Threedium team to quickly uncover how 3D products and AR experiences could look on your online store:</p>
+            <button type="button" class="btn main-btn mt-3"><a href="contact.html">Book A Demo</a></button>
+            <a href="#"><span><i class="fa-solid fa-arrow-up-long"></i></span></a>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- METACOMMERCE -->
+  <section id="meatcommerce" class="banner-1">
+    <div class="container">
+      <div class="row hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start">
+            <h4>METACOMMERCE EXPERIENCES</h4>
+            <p class="mb-5">We are bringing the metaverse to life with a new way to experience fashion where customers can shop the runway and socialize, whether they are shopping in the store or on their mobile device at home.</p>
+            <button type="button" class="btn main-btn learnMore">Learn more</button>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 order-first order-md-last">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <video class ="rounded" width="100%" height="100%" preload="none"      muted="" loop="" autoplay="" playsinline="">
+              <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/NB%20LND%20Marathon%2022%20Blue%20Shoe%20Optimized.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="section-details">
+        <div class="heading text-center"><h1 class="fs-1 mb-4">It's the details that matter…</h1></div>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card text-start" style="background-color:transparent">
+              <video autoplay="" muted="" playsinline="" preload="none" class="rounded">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/Diageo-DigitalWalkthrough-optimized.mp4" type="video/mp4">
+            </video>
+              <div class="card-body mt-4">
+                <h5 class="card-title text-white fw-bold fs-4">Remove previous limitations.</h5>
+                <p class="card-text">While most products limit where and how you can use your 3D assets, Threedium’s are fully flexible: customers can tailor their options and purchase straight from the AR experience.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-start" style="background-color:transparent">
+              <video autoplay="" muted="" playsinline="" class="rounded">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/Threedium%20Plaza.mp4" type="video/mp4">
+              </video>             
+              <div class="card-body mt-4">
+                <h5 class="card-title text-white fw-bold fs-4">Threedium can build your virtual store.
+                </h5>
+                <p class="card-text">Walk around and explore and engage with interactive touchpoints that trigger 3D experiences, AR/VR and much more.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-start" style="background-color:transparent">
+              <video autoplay="" muted="" playsinline="" class="rounded">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/MagnumMuseum.mp4" type="video/mp4">
+              </video>              
+              <div class="card-body mt-4">
+                <h5 class="card-title text-white fw-bold fs-4">Leverage your 3D assets across different virtual worlds.</h5>
+                <p class="card-text">Populate your digital space or convert them as wearables to dress avatars.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       <div class="row justify-content-center mt-5 pt-5">
+        <div class="col-12 col-lg-9">
+          <div class="bottom-box text-center">
+            <h2 class="fs-1 text-white fw-bold">Digital Twins as NFTs</h2>
+            <p>Authenticate your 3D assets on the blockchain - and use these 3D NFTs to  introduce token gated commerce.</p>
+            <button type="button" class="btn main-btn mt-3"><a href="contact.html">Book A Demo</a></button>
+            <a href="#"><span><i class="fa-solid fa-arrow-up-long"></i></span></a>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How we do it  -->
+  <section id="innovation" class="py-5 mt-5 banner-2">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <video class ="rounded" width="100%" height="100%" preload="none"      muted="" loop="" autoplay="" playsinline="">
+              <source src="https://threedium.io/hubfs/Platform%20Video%20Optimized.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start">
+            <h6>How We Do It</h6>
+            <h2 class="fs-1 fw-bold">Innovation with Proprietary Tech</h2>
+            <p class="mb-5">Capture the imagination of your audience with Unlimited3D, the most versatile, scalable, and easy-to-use 3D web platform. Help customers fully appreciate your products with real-time reflections, authentic textures and accurate colors, and complete consistency across every line. Enjoy robust 3D commerce solutions with Unlimited3D from Threedium.</p>
+            <button type="button" class="btn main-btn"><a href="#">Sign Up Now</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- statrt Ecommerce  -->
+   <section id="eCommerce" class="py-5 text-md-start text-center">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="eCommerse__tile">
+            <h6>WHAT WE CAN DO TOGETHER</h6>
+            <h1>eCommerce <span class="d-md-block d-inline">is Evolving.</span></h1>
+          </div>
+        </div>
+        <div class="col-md-5 col-sm-12">
+          <div class="ecommerce_info text-white">
+            <p>Unlimited3D from Threedium offers a fully integrated suite of 3D and AR tools designed for modelers, developers and marketers— no matter where you are in your 3D journey.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section id="eCommerce-cards" class="my-5 py-5">
+    <div class="container">
+      <div class="row hide-1">
+        <div class="col-lg-4 col-sm-6 col-12">
+            <div class="card mb-5" style="background-color:transparent; color:#fff">
+              <video height="300px"muted="" style="height:300px;">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/Homepage-Immersive-1.mp4" type="video/mp4">
+              </video>
+              <div class="card-body">
+                <h5 class="card-title fw-semibold fs-3">Immersive Shopping</h5>
+                <p class="card-text">Customers buy more confidently when they visualize products using 3D & AR so you see more sales and fewer returns.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12">
+            <div class="card mb-5" style="background-color:transparent; color:#fff">
+              <img src="../All_images/Interactive eCommerce1.webp" class="img-fluid" alt="">
+              <div class="card-body">
+                <h5 class="card-title fw-semibold fs-3">Immersive Shopping</h5>
+                <p class="card-text">Customers buy more confidently when they visualize products using 3D & AR so you see more sales and fewer returns.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12">
+            <div class="card mb-5" style="background-color:transparent; color:#fff">
+              <video height="300px"muted="" style="height:300px;">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/Homepage-3DAds.mp4" type="video/mp4">
+              </video>
+              <div class="card-body">
+                <h5 class="card-title fw-semibold fs-3">Immersive Shopping</h5>
+                <p class="card-text">Customers buy more confidently when they visualize products using 3D & AR so you see more sales and fewer returns.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12">
+            <div class="card mb-5" style="background-color:transparent; color:#fff">
+              <img src="../All_images/ecommerce2.webp" alt="img">
+              <div class="card-body">
+                <h5 class="card-title fw-semibold fs-3">Immersive Shopping</h5>
+                <p class="card-text">Customers buy more confidently when they visualize products using 3D & AR so you see more sales and fewer returns.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12">
+            <div class="card mb-5" style="background-color:transparent; color:#fff">
+              <video height="300px"muted="" style="height:300px;">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/Homepage-AugmentedReality.mp4" type="video/mp4">
+              </video>
+              <div class="card-body mt-5">
+                <h5 class="card-title fw-semibold fs-3">Immersive Shopping</h5>
+                <p class="card-text">Customers buy more confidently when they visualize products using 3D & AR so you see more sales and fewer returns.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12">
+            <div class="card mb-5" style="background-color:transparent; color:#fff">
+              <img src="../All_images/ecommerse3.png" class="img-fluid" alt="">
+              <div class="card-body">
+                <h5 class="card-title fw-semibold fs-3">Immersive Shopping</h5>
+                <p class="card-text">Customers buy more confidently when they visualize products using 3D & AR so you see more sales and fewer returns.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section id="ecommerceVideo" class="eCommerce-video">
+    <div class="overlay d-flex align-items-center ">
+      <div class="container">
+        <div class="row align-items-center hide-1">
+          <div class="col-sm-6 col-12">
+            <div class="eCommerce-video-title">
+              <h1>Let’s create<br> <span class="d-inline">the future</span> of 3D eCommerce<br> together.</h1>
+            </div>
+          </div>
+          <div class="col-sm-6 col-12 d-none d-sm-block">
+            <div class="eCommerce-video-info">
+              <p class="mb-md-5 m-2">Unlimited3D from Threedium offers a fully integrated suite of 3D and AR tools designed for modelers, developers and marketers— no matter where you are in your 3D journey.</p>
+              <button type="button" class="btn main-btn bg-black">SIGN UP NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <video width="100%" height="100%" autoplay="" muted="" loop="">
+      <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/NB%20LND%20Marathon%2022%20Blue%20Shoe%20Optimized.mp4" type="video/mp4">
+    </video>
+   </section>
+   <!-- end Ecommerce  -->
+
+   <!-- start Blog  -->
+   <section id="Blog">
+    <div class="container">
+      <div class="Blog__title mb-5 hide-1">
+        <h6>THE WEB3D BLOG COVERS THE LATEST IN 3D, AR AND THE METAVERSE.</h6>
+        <h2 class="fs-1 fw-bold text-white">News, Blog & Events</h2>
+      </div>
+      <div class="owl-carousel owl-theme text-white text-center position-static">
+        <div class="card text-start" style="background-color:transparent">
+          <img src="../All_images/blog-1.webp" class="card-img-top" alt="...">
+          <div class="card-body mt-4">
+            <a href="#"><h5 class="card-title text-white fw-bold fs-4">The Immersive Internet and the Future of Content Creation</h5></a>
+            <p class="card-text">In a recent interview with Mike Charalambous, CEO of Threedium we delve into the company's groundbreaking mission to revolutionize the web through...</p>
+          </div>
+        </div>
+        <div class="card text-start" style="background-color:transparent">
+          <img src="../All_images/blog-2.webp" class="card-img-top" alt="...">
+          <div class="card-body mt-4">
+            <a href="#"><h5 class="card-title text-white fw-bold fs-4">Top 8 3D and AR Providers</h5></a>
+            <p class="card-text">We're in the midst of a 3D and AR revolution. And like any good revolution, it's not going to happen overnight. It's not just about better graphics...</p>
+          </div>
+        </div>
+        <div class="card text-start" style="background-color:transparent">
+          <img src="../All_images/blog-3.webp" class="card-img-top" alt="...">
+          <div class="card-body mt-4">
+            <a href="#"><h5 class="card-title text-white fw-bold fs-4">Threedium Hosts Global Brands During Metaverse Fashion Week</h5></a>
+            <p class="card-text">Threedium will host a collection of branded boutique shops along with 3D wearables from global brands participating in Metaverse Fashion Week</p>
+          </div>
+        </div>
+        <div class="card text-start" style="background-color:transparent">
+          <img src="../All_images/blog-4.webp" class="card-img-top" alt="...">
+          <div class="card-body mt-4">
+            <a href="#"><h5 class="card-title text-white fw-bold fs-4">3D, AR, NFTs &amp; The Metaverse:Why Brands Should Invest Now</h5></a>
+            <p class="card-text">The past 18 months have continued to test and push nearly every industry to change and adapt to our increasingly digital world. The digital...</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+   </section>
+   <!-- end Blog  -->
+
+   <!-- start footer  -->
+   <footer class="pt-5 pb-3">
+    <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <div class="logo-text">
+              <img src="../All_images/Threedium-logo.svg" class="img-fluid" alt="">
+              <p class="">London |  Washington D.C.<br>
+                Paris | Belgrade</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <h6>Products</h6>
+            <ul class="lists">
+              <li class="mb-2"><a class="text-white" href="products.html">3D Engine</a></li>
+              <li class="mb-2"><a class="text-white" href="products.html">3D Veiwer</a></li>
+              <li class="mb-2"><a class="text-white" href="solutions.html">AR Experiences</a></li>
+              <li class="mb-2"><a class="text-white" href="products.html">Digital Walkthroughs</a></li>
+              <li class="mb-2"><a class="text-white" href="solutions.html">3D Banner Ads</a></li>
+              <li class="mb-2"><a class="text-white" href="metaverse.html">Metaverse</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <h6>Company</h6>
+            <ul class="lists">
+              <li class="mb-2"><a class="text-white" href="about.html">About</a></li>
+              <li class="mb-2"><a class="text-white" href="career.html">Careers</a></li>
+              <li class="mb-2"><a class="text-white" href="contact.html">Contact</a></li>
+              <li class="mb-2"><a class="text-white" href="blog.html">Blog</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.threedium.io/terms">Term of Use</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.threedium.io/privacy">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <h6>Developers</h6>
+            <ul class="lists">
+              <li class="mb-2"><a class="text-white" href="login.html">Platform login</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.youtube.com/playlist?list=PL7LjKoktKK8mhXWHBjWADZMegaH-aAQD9">Toutorials</a></li>
+              <li class="mb-2"><a class="text-white" href="#">FAQs</a></li>
+              <li class="mb-2"><a class="text-white" href="https://unlimited3d.com/documentation/developer">Developer Docs</a></li>
+              <li class="mb-2"><a class="text-white" href="https://unlimited3d.com/documentation/api">API Docs</a></li>
+              <li class="mb-2"><a class="text-white" href="https://unlimited3d.com/documentation/3d">3D Docs</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <h6>Connect</h6>
+            <ul class="lists">
+              <li class="mb-2"><a class="text-white" href="https://www.linkedin.com/company/threedium/">Linkedin</a></li>
+              <li class="mb-2"><a class="text-white" href="https://twitter.com/Threedium">Twitter</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.instagram.com/threedium3d/">Instagram</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.youtube.com/channel/UCO6WXEwHrtWHUzBxzvr3XdA">YouTube</a></li>
+              <li class="mb-2"><a class="text-white" href="https://linktr.ee/threedium">LInkTree</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="copyRights text-center pt-4 mt-5">
+              <p><i class="fa-regular fa-copyright"></i> 2022, Threedium LTD. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </footer>
+   <!-- end footer  -->
+  
+</body>
+<!-- js files  -->
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="../js/main.js"></script>
+</html>

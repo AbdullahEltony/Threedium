@@ -1,0 +1,522 @@
+@use 'mixins' as *;
+@use 'global' as *;
+
+header {
+    background-color:#03021e;
+}
+
+.minue__item {
+    padding:20px 35px;
+    .item-link{
+        color:#fff;
+        font-weight:600;
+        transition:0.5s;
+        font-size:17px;
+    }
+    .minue__item-dropdown {
+        position:relative;
+    }
+    .item-link:hover {
+        color:$yellow-color;
+    }
+    svg {
+        width:12%;
+        margin-top:-2px;
+    }
+    .dropdown-minue {
+        background-color:#fff;
+        border-radius:10px;
+        position:absolute;
+        left:0;
+        top:70px;
+        padding:10px 20px;
+        display:none;
+        z-index:99;
+        &::before {
+            content:'';
+            border:20px solid;
+            border-color:transparent transparent #ffffff transparent;
+            position:absolute;
+            top:-34px;
+            left:30px;
+
+        }
+         a {
+            color:#54606e;
+            font-size:17px;
+            font-weight:500;
+            padding-bottom:8px;
+            display:inline-block;
+         }
+    }
+}
+.minue__item-dropdown:hover ul.dropdown-minue {
+    display:block;
+}
+.header__logo {
+    line-height:80px;
+}
+.bar-icon {
+    font-size:25px;
+    margin-right:-30px;
+    color:#fff;
+    display:none;
+}
+.main-btn {
+    color:#fff ;
+    font-weight:700;
+    border:2px solid $yellow-color;
+    font-size:17px;
+    padding:10px 20px;
+    text-transform: uppercase;
+}
+.main-btn:hover {
+    color:#fff;
+    border-color:rgba(111, 216, 245, 1.0) !important;
+}
+/* end haeder */
+
+/* start home section */
+.mian-banner {
+    background-image:url(../All_images/header-15\ 1.webp);
+    position:relative;
+    background-position:50%;
+    min-height:700px;
+    padding:100px 0;
+    display:flex;
+    align-items:center;
+    overflow: hidden;
+    z-index:1;
+    &::before {
+        content:'';
+        position:absolute;
+        left:0;
+        top:0;
+        width:100%;
+        height:133px;
+        background-color:rgba(3, 2, 30,0.3);
+        z-index:-1;
+    }
+    &::after {
+        content:'';
+        position:absolute;
+        left:0;
+        bottom:10px;
+        width:100%;
+        height:133px;
+        background-color:rgba(3, 2, 30,0.5);
+        z-index:-1;
+    }
+    p {
+        color:#fff;
+        line-height:28px;
+    }
+    iframe {
+        display:block;
+        margin:0;
+        width:100%;
+        height:100%;
+        border:none;
+        overflow: hidden;
+    }
+    
+    .home_img {
+        transform:scale(2.2);
+        height:200px;
+    }
+  }
+
+/*   start partener section */
+#Partener {
+    padding:30px 0;
+    .partener__logo  {
+        width:160px;
+        margin:25px auto;
+    }
+}
+/* start what we do section */
+#what-we-do-home {
+   @include bg-img('../All_images/bg-yellow.png');
+   @include bgimg();
+    .descreptoin {
+        color:#fff;
+        h2 {
+            font-weight:700;
+            font-size:46px;
+        }
+    }
+    
+}
+// end what we do section 
+
+/* start configration section */
+.banner-1{
+    padding:40px 0;
+    .info {
+        color:#fff;
+        padding-right:100px;
+        h4 {
+            font-size:26px;
+            margin-bottom:15px;
+            color:#6FD8F5;
+            font-weight:700;
+        }
+        h4.larg-size {
+            font-size:46px;
+        }
+    }
+}
+
+/* start augmention reality */
+ .banner-2{
+    padding:40px 0;
+    .info {
+        padding-left:100px;
+        color:#fff;
+     }
+     h4 {
+        font-size:26px;
+        margin-bottom:15px;
+        color:#6FD8F5;
+        font-weight:700;
+    }
+    h4.larg-size {
+        font-size:46px;
+    }
+ }
+/*  start eCommerce */
+#eCommerce {
+    background-image: url(../All_images/bg-blue.png);
+    @include bgimg();
+}
+.yellow-bg {
+    background-image: url(../All_images/bg-yellow.png) !important;
+    @include bgimg();
+}
+.eCommerce-video {
+    position:relative;
+}
+.eCommerce-video .overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(35, 34, 54,0.6);
+}
+.eCommerce-video-info {
+    position:relative;
+    z-index:1;
+}
+//  end eCommerce 
+
+/* start Blog */
+#Blog {
+    background-color:#232236;
+    padding:80px 0;
+    position:relative;
+    overflow:hidden;
+}
+// end Blog 
+
+/* start sponsors section */
+#sponsor-sec {
+    padding:80px 0;
+    span {
+        @include after($yellow-color);
+    }
+    .sponsor img {
+        width:160px;
+        margin:auto;
+    }
+    .owl-theme .owl-nav,.owl-dots {
+        display:none;
+    }
+}
+
+/* scanner */
+#scanner {
+    background-image: url(../All_images/bg-blue.png);
+    @include bgimg();
+}
+
+/* market place */
+#marketPlace {
+    background-image: url(../All_images/bg-yellow.png);
+    @include bgimg();
+}
+
+/* builders */
+#builders {
+    background-color:#19182f;
+    padding:100px 0;
+}
+
+/* Exsiting products */
+#ExsitingProducts {
+    max-height:70vh;
+    display:flex;
+    align-items:center;
+}
+
+/*custom-loader*/
+#custom-loader{
+    background-color:#232236;
+    padding:100px 0px;
+}
+
+// solution-hero
+#solution-hero {
+    background-image: url(../All_images/solutions-hero-1.jpg);
+    @include bgimg;
+    position:relative;
+    z-index:1;
+    &::before {
+        position:absolute;
+        top:0;
+        left:0;
+        content:'';
+        width:100%;
+        height:100%;
+        background-color:rgba(0, 0, 0, 0.6);
+    }
+}
+/* start footer*/
+#metacommerse-partiner {
+    position:relative;
+    img {
+        width:160px;
+        margin:auto;
+    }
+    .owl-dots {
+        display:none;
+    }
+}
+/* end solution page */
+
+// start about page 
+#about-banner {
+    background-image:url(../All_images/about-banner.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+    display:flex;
+    align-items:center;
+    height:400px;
+}
+#teamInnovator {
+    padding:80px 0;
+    img {
+        height:410px;
+        border-radius:10px;
+        width:570px;
+    }
+}
+
+/*start contact page */
+.Contct {
+    background-image:url(../All_images/dark-hubspot-theme-bg.jpeg);
+    position:relative;
+    background-attachment: fixed;
+    padding:80px 0;
+    .section-title:hover {
+        span {
+            width:200px;
+        }
+    }
+    span {
+        background-color:#ffff !important;
+        height:5px !important;
+        width:150px;
+        transition:0.4s;
+    }
+}
+/* end contact page */
+
+/* start watches and jewelry */
+#watches-jewelry {
+    background-image:url(../All_images/watches&jewelry-bg.png);
+    background-size:cover;
+    background-position: 50% !important;
+    position:relative;
+    &::after {
+        content:'';
+        width:100%;
+        height:25%;
+        position:absolute;
+        left:0;
+        bottom:0;
+        background-color:rgba(3, 2, 30,0.9);
+        filter: blur(36px);
+    }
+}
+#what-we-do-jewelry {
+    @include bgimg();
+     .descreptoin {
+         color:#fff;
+         h2 {
+             font-weight:700;
+             font-size:46px;
+         }
+     }
+     
+ }
+
+//  start tistimonials 
+#testimonials {
+    padding:80px 20px;
+    .slide {
+        background-color:$dark-blue;
+        padding:80px 0;
+        position:relative;
+        .testimonial__text {
+            font-size:26px;
+            color:#cccccccc;
+            padding-bottom:50px;
+        }
+        .slide-box {
+            padding:0 100px;
+            img {
+                width:108px;
+                height:108px;
+                object-fit:contain;
+                border-radius:10px;
+            }
+        }
+
+    }
+}
+.meatavers-banner , #blog-banner {
+    background-image:url(../All_images/metaverse/metverse-bg.png);
+    background-size:cover;
+    background-position:50%;
+    background-repeat:no-repeat;
+    height:700px;
+    display:flex;
+    align-items:center;
+}
+#blog-banner {
+    height:400px;
+    background-image:url(../All_images/blog-banner.png);
+}
+/*start footer */
+footer {
+   & > div{
+    margin:20px;
+   } 
+    .logo-text{
+        img {
+            width:250px;
+        }
+        p {
+            font-size:12px;
+            margin:45px 0 25px;
+        }
+    }
+    .lists a:hover {
+        color: #c9c3c3 !important;
+    }
+    .copyRights {
+        border-top:1px solid #232236;
+        font-size:16px;
+        p {
+            font-size:16px;
+        }
+    }
+}
+// end footer 
+
+@media (max-width:1200px) {
+    .navbar {
+        display:none !important;
+    }
+}
+@media (max-width:992px) {
+    h1 {
+        font-size:40px;
+    }
+    
+     h2 {
+        font-size:30px !important;
+    }
+    #jewelry-partiner .owl-theme .owl-nav {
+        display:none;
+    }
+    .banner-1 {
+        .info {
+            padding-right:0;
+        }
+    }
+    .banner-2 {
+        .info {
+            padding-left:0;
+         }
+}
+@media (max-width:776px) {
+         
+     }
+     span.special {
+        width:100%;
+        display:block;
+     }
+     .Home__text-content {
+        margin-top:120px !important;
+     }
+     #Product h1 {
+        line-height:64px
+    }
+    #testimonials .slide  {
+        padding:30px 0;
+    }
+    
+    #testimonials .slide .slide-box {
+        padding:0 20px;
+    }
+    #testimonials .slide .testimonial__text{
+        padding-bottom:25px;
+        font-size:16px;
+    }
+    #testimonials button {
+        display:none;
+    }
+    #testimonials .img1 {
+        width:50px !important;
+    }
+    #testimonials h6 {
+        font-size:12px;
+    }
+    #login form {
+        padding:1rem !important;
+    }
+    .banner-1 {
+        .info {
+            padding-right:0;
+            margin-top:10px;
+        }
+    }
+    .banner-2 {
+        .info {
+            padding-left:0;
+            margin-top:10px;
+         }
+    }
+
+}
+@media (max-width:576px) {
+    .bar-icon {
+        margin:0;
+    }
+    #eCommerce-cards .card  {
+        text-align:center;
+    }
+    .owl-theme .owl-nav {
+        display:none;
+    }
+    .owl-dots {
+        display:block;
+    }
+    .overlay h1 {
+        font-size:30px;
+    }
+}
+

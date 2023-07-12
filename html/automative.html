@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automative</title>
+    <link rel="shortcut icon" href="https://www.threedium.io/hubfs/Favicon-DarkBlue.png">
+     <!-------  css files  ------->
+     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+     <link rel="stylesheet" href="../css/all.min.css">
+     <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Automative-page  -->
+  <main di="automative-page">
+    <!-- statrt header  -->
+    <header class="">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="header__logo">
+          <a href="index.html"><img src="../All_images/Threedium-logo.svg" alt=""></a>
+        </div>
+        <div class="navbar d-flex justify-content-between align-items-center">
+          <ul class="header__minue d-flex">
+            <li class="minue__item minue__item-dropdown">
+              <a class="item-link">INDUSTRIES 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+              </svg>
+              <ul class="dropdown-minue">
+                <h5 class="text-black-50 my-3">CATIGORY</h5>
+                <li><a href="watches_jewelrys.html">Watches & Jewelry</a></li>
+                <li><a href="fashion.html">Fashion & Accessories</a></li>
+                <li><a href="furniture.html">Home & Furniture</a></li>
+                <li><a href="automative.html">Automotive & Furniture</a></li>
+                <li><a href="cpg.html">CPG/FMCG</a></li>
+                <li><a href="electronic.html">Electronics</a></li>
+                <li><a href="metaverse.html">Metaverse as a Service</a></li>
+              </ul>
+            </a>
+          </li>
+          <li class="minue__item"><a href="products.html" class="item-link">PRODUCTS</a></li>
+          <li class="minue__item"><a href="solutions.html" class="item-link"> SOLUTIONS</a></li>
+          <li class="minue__item"><a href="about.html" class="item-link">ABOUT</a></li>
+          </ul>
+          <button type="button" class="btn main-btn"><a href="contact.html">Book A Demo</a></button>
+        </div>
+  
+          <button class="bar-btn d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i> </button>
+        
+      </div>
+    </header>
+
+  <!-- offCanvas  -->
+   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+ <div class="offcanvas-header">
+   <h5 id="offcanvasRightLabel"></h5>
+   <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+ </div>
+ <div class="offcanvas-body px-0">
+   <div>
+     <ul>
+       <li class="item item-dropdown" onclick="show_minue(this)">
+         <a href="#" class="item-link d-flex align-items-center"><span>INDUSTRIES</span> 
+           <svg class="ms-auto fw-semibold" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+           </svg>
+         </a>
+       </li>
+       
+       <ul class="minue">
+       <h5 class="item">CATIGORY</h5>
+       <li class="item"><a href="watches_automatives.html" class="item-link">Watches & autom</a></li>
+       <li class="item"><a href="fashion.html" class="item-link">Fashion & Accessories</a></li>
+       <li class="item"><a href="furniture.html" class="item-link">Home & Furniture</a></li>
+       <li class="item"><a href="automative.html" class="item-link">Automotive</a></li>
+       <li class="item"><a href="cpg.html" class="item-link">CPG/FMCG</a></li>
+       <li class="item"><a href="electronic.html" class="item-link">Electronics</a></li>
+       <li class="item"><a href="metaverse.html" class="item-link">Metaverse as a Service</a></li>
+       </ul>
+       <li class="item"><a href="products.html" class="item-link">PRODUCTS</a></li>
+       <li class="item"><a href="solutions.html" class="item-link"> SOLUTIONS</a></li>
+       <li class="item mb-3"><a href="about.html" class="item-link">ABOUT</a></li>
+     </ul>
+     <button type="button" class="btn main-btn ms-2"><a href="contact.html">Book A Demo</a></button>
+   </div>
+ </div>
+   </div>
+   <!-- end header  -->
+
+   <!-- move to top button  -->
+   <button type="button" class="btn" id="movTop" onclick="movTop()"><i class="fa-solid fa-arrow-up"></i></button>
+
+   <!-- start Automation
+ -->
+   <section id="Automation" class="mian-banner">
+   <div class="container">
+     <div class="row align-items-center">
+       <div class="col-md-6 col-sm-12">
+         <div class="Home__text-content mt-4 text-center text-md-start hide-1">
+           <h1 class="mb-4">Automotive and <span class="d-inline">Connected</span> 3D &amp; AR</h1>
+           <p>Threedium combines the tools you need to create, distribute and manage photorealistic 3D and AR experiences on the web so you can increase sales and delight your customers
+           </p>
+           <button type="button" class="btn main-btn mt-5"><a href="contact.html">TALKE TO AN EXPERT</a></button>
+         </div>
+       </div>
+       <div class="col-md-6 col-sm-12 order-first order-md-last overflow-hidden">
+         <div class="jewelry_img">
+           <img src="../All_images/automative/automative-home-img.png" class="img-fluid" alt="">
+         </div>
+       </div>
+     </div>
+   </div>
+   </section>
+
+   <!-- automative partiner  -->
+   <section id="automative-partiner" class="py-5 position-relative">
+   <div class="container pt-5 pb-3">
+       <div class="sponsor__title text-center mb-4 hide-1">
+           <p class="fw-bold mb-0">PARTNERS</p>
+           <span class="after"></span>
+       </div>
+       <div class="owl-carousel owl-theme text-white text-center position-static hide-1">
+           <div class="sponsor">
+             <img src="../All_images/automative/auto-part1.png" class="img-fluid w-160" alt="...">     
+            </div>
+           <div class="sponsor">
+             <img src="../All_images/automative/auto-part2.png" class="img-fluid w-160" alt="...">     
+            </div>
+           <div class="sponsor">
+             <img src="../All_images/automative/auto-part3.png" class="img-fluid w-160" alt="...">     
+            </div>
+           <div class="sponsor">
+             <img src="../All_images/automative/auto-part4.png" class="img-fluid w-160" alt="...">     
+            </div>
+           <div class="sponsor">
+             <img src="../All_images/automative/auto-part5.png" class="img-fluid w-160" alt="...">     
+            </div>
+       </div>
+   </div>
+
+   </section>
+
+   <!-- automative model  -->
+   <section id="automative-model">
+    <div class="iframe-box hide-1" style="height:700px;"><iframe style="display:block;margin:0;width:100%;height:100%;border:none;overflow:hidden" src="https://demo.threedium.co.uk/website/car/"></iframe></div>
+   </section>
+
+   <section id="what-we-do-jewelry" class="blue-bg">
+   <div class="container">
+     <div class="row hide-1"> 
+       <div class="col-lg-8 col-sm-12">
+         <div class="descreptoin text-sm-start text-center">
+           <h6>WHAT WE DO</h6>
+           <h2>Photorealistic 3D assets you can use to sell across multiple channels</h2>
+           <p>Help customers fully appreciate your products with real-time reflections, authentic textures and accurate colors, and complete consistency across every line. Enjoy a robust 3D commerce UX and workflow - on one platform that's easy to transition to, keeps your 3D assets organized, and integrates with the systems.</p>
+         </div>
+       </div>
+     </div>
+   </div>
+   </section>
+
+   <!-- Digital Experiences  -->
+   <section id="DigitalExperiences" class="banner-1">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start pe-0 pe-lg-5 pe-md-2">
+            <h4>Digital Experiences with Lasting Impact</h4>
+            <p class="mb-5">Allow customers to appreciate photorealistic AR experiences without needing to install an app. Simply scan a QR code with any smartphone and have a true-to-scale car in your garage or driveway in seconds. </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 order-first order-md-last">
+          <div class="viewer-video mb-5 mb-sm-0">
+           <img src="../All_images/automative/Auto Problem-1.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+   <!-- Experience in your Driveway  -->
+   <section id="experience-driveway" class="banner-2">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <img src="../All_images/automative/Auto Solution.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start">
+            <h4>Experience in your Driveway</h4>
+            <p class="mb-5">Allow customers to appreciate photorealistic AR experiences without needing to install an app. Simply scan a QR code with any smartphone and have a true-to-scale car in your garage or driveway in seconds. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section id="eCommerce" class="py-5 text-md-start text-center yellow-bg">
+   <div class="container">
+     <div class="row align-items-center hide-1">
+       <div class="col-md-6 col-sm-12">
+         <div class="eCommerse__tile">
+           <h6>WHAT WE CAN DO TOGETHER</h6>
+           <h1>eCommerce <span class="special">is Evolving.</span></h1>
+         </div>
+       </div>
+       <div class="col-md-5 col-sm-12">
+         <div class="ecommerce_info text-white">
+           <p>Unlimited3D from Threedium offers a fully integrated suite of 3D and AR tools designed for modelers, developers and marketers— no matter where you are in your 3D journey.</p>
+         </div>
+       </div>
+     </div>
+   </div>
+   </section>
+
+   <section id="distribution" class="py-5 my-5">
+   <div class="container">
+       <div class="row hide-1">
+           <div class="col-12 col-sm-6 col-lg-4">
+               <div class="dist-card text-center text-sm-start mb-4 mb-sm-0">
+                   <h1 class="fw-semibold">30%</h1>
+                   <h6 class="mb-0">CONVERSION IMPROVEMENT</h6>
+                   <p>With 3D on ecommerce brands see a higher lift in sales</p>
+               </div>
+           </div>
+           <div class="col-12 col-sm-6 col-lg-4">
+               <div class="dist-card text-center text-sm-start mb-4 mb-sm-0">
+                   <h1 class="fw-semibold">300%</h1>
+                   <h6 class="mb-0">HIGHER ENGAGEMENT
+                   </h6>
+                   <p>3D gives the buyer something to interact with</p>
+               </div>
+           </div>
+           <div class="col-12 col-sm-6 col-lg-4">
+               <div class="dist-card text-center text-sm-start mb-4 mb-sm-0">
+                   <h1 class="fw-semibold">18%</h1>
+                   <h6 class="mb-0">DROP IN PRODUCT RETURNS</h6>
+                   <p>When a buyer can see the true size, they are less likely to return.</p>
+               </div>
+           </div>
+       </div>
+   </div>
+   </section>
+
+   <!-- automativesolutions  -->
+   <section id="automative-sol" class="py-5 my-5">
+   <div class="container">
+       <div class="jewelry-title mb-5 text-center text-sm-start hide-1">
+           <h6 class="fw-bold">EXPLORE MORE</h6>
+           <h2 class="fs-1 fw-bold text-white">Other Automotive Solutions</h2>
+       </div>
+       <div class="row">
+           <div class="col-12 col-sm-6 col-lg-4">
+               <div class="card text-center text-sm-start" style="background-color:transparent">
+                   <img src="../All_images/automative/Automotive1.png" alt="watch">
+                   <div class="card-body mt-4">
+                     <h6 class="card-title">Mercedes-Benz</h6>
+                     <p class="card-text">Use 3D and interactive hotspots to showcase the features and functionality of the vehicle.</p>
+                   </div>
+                 </div>
+           </div>
+           <div class="col-12 col-sm-6 col-lg-4">
+               <div class="card text-center text-sm-start" style="background-color:transparent">
+                <img src="../All_images/automative/Automotive2.png" alt="watch">
+                   <div class="card-body mt-4">
+                     <h6 class="card-title">Ford Ranger</h6>
+                     <p class="card-text">Allow buyers to configure and customize in real-time 3D.</p>
+                   </div>
+                 </div>
+           </div>
+           <div class="col-12 col-sm-6 col-lg-4">
+               <div class="card text-center text-sm-start" style="background-color:transparent">
+                <img src="../All_images/automative/Automotive3.png" alt="watch">
+                   <div class="card-body mt-4">
+                     <h6 class="card-title">RUF</h6>
+                     <p class="card-text">Create a virtual showroom to recreate the buying experience online.</p>
+                   </div>
+                 </div>
+           </div>
+       </div>
+   </div>
+   </section>
+
+   <!-- automative video  -->
+   <section id="automative" class="eCommerce-video">
+   <div class="overlay d-flex align-items-center hide-1">
+     <div class="container">
+       <div class="row align-items-center">
+         <div class="col-sm-6 col-12">
+           <div class="eCommerce-video-title">
+             <h1>Let’s create<br> <span class="d-inline">the future</span> of 3D eCommerce<br> together.</h1>
+           </div>
+         </div>
+         <div class="col-sm-6 col-12 d-none d-sm-block">
+           <div class="eCommerce-video-info">
+             <p class="mb-md-5 m-2">Threedium offers a fully integrated suite of 3D and AR tools designed for modelers, developers and marketers— no matter where you are in your 3D journey.</p>
+             <button type="button" class="btn main-btn bg-black">TALKE TO AN EXPERT</button>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <video width="100%" height="100%" autoplay="" muted="" loop="">
+    <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Solutions%20Assets/Porsche%20Loader.mp4" type="video/mp4">
+   </video>
+   </section>
+
+   <!-- slider  -->
+   <section id="testimonials">
+   <div class="container">
+       <div id="carouselExampleControls" class="carousel slide hide-1" data-bs-ride="carousel">
+           <div class="carousel-inner slide-box">
+               <div class="carousel-item active">
+                   <div class="testimonial">
+                       <div class="testimonial__text">
+                           "Incredible attention to detail and we are so excited to have been a part of this amazing project. It feels euphoric to have everyone on the Threedium team helping our 3D configurator come to life!"
+                       </div>
+                       <div class="testimonial__client d-flex align-items-center">
+                           <div class="clinent-img">
+                               <img src="../All_images/watches&jewelry/testimonial-img.png" class="rounded img-fluid img1" alt="">
+                           </div>
+                           <div class="client-name ms-4">
+                               <h6 class="fw-semibold">Laura Kofoid<br> Co-founder, CEO Laudi Vidni</h6>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="carousel-item">
+                   <div class="testimonial">
+                       <div class="testimonial__text">
+                           "Incredible attention to detail and we are so excited to have been a part of this amazing project. It feels euphoric to have everyone on the Threedium team helping our 3D configurator come to life!"
+                       </div>
+                       <div class="testimonial__client d-flex align-items-center">
+                           <div class="clinent-img">
+                               <img src="../All_images/watches&jewelry/testimonial2.png"  alt="">
+                           </div>
+                           <div class="client-name ms-4">
+                               <h6 class="fw-semibold">Dipak Pandya<br>Head of Product and Technology at NuOrder by Lightspeed.</h6>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="slid-nav">
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                   <img src="../All_images/watches&jewelry/Vector-2.png" alt="">
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                   <img src="../All_images/watches&jewelry/Vector (1)-2.png" alt="">
+               </button>
+           </div>
+         </div>
+   </div>
+   </section>
+
+   <!-- start footer  -->
+   <footer class="pt-5 pb-3">
+    <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <div class="logo-text">
+              <img src="../All_images/Threedium-logo.svg" class="img-fluid" alt="">
+              <p class="">London |  Washington D.C.<br>
+                Paris | Belgrade</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <h6>Products</h6>
+            <ul class="lists">
+              <li class="mb-2"><a class="text-white" href="products.html">3D Engine</a></li>
+              <li class="mb-2"><a class="text-white" href="products.html">3D Veiwer</a></li>
+              <li class="mb-2"><a class="text-white" href="solutions.html">AR Experiences</a></li>
+              <li class="mb-2"><a class="text-white" href="products.html">Digital Walkthroughs</a></li>
+              <li class="mb-2"><a class="text-white" href="solutions.html">3D Banner Ads</a></li>
+              <li class="mb-2"><a class="text-white" href="metaverse.html">Metaverse</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <h6>Company</h6>
+            <ul class="lists">
+              <li class="mb-2"><a class="text-white" href="about.html">About</a></li>
+              <li class="mb-2"><a class="text-white" href="career.html">Careers</a></li>
+              <li class="mb-2"><a class="text-white" href="contact.html">Contact</a></li>
+              <li class="mb-2"><a class="text-white" href="blog.html">Blog</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.threedium.io/terms">Term of Use</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.threedium.io/privacy">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <h6>Developers</h6>
+            <ul class="lists">
+              <li class="mb-2"><a class="text-white" href="login.html">Platform login</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.youtube.com/playlist?list=PL7LjKoktKK8mhXWHBjWADZMegaH-aAQD9">Toutorials</a></li>
+              <li class="mb-2"><a class="text-white" href="#">FAQs</a></li>
+              <li class="mb-2"><a class="text-white" href="https://unlimited3d.com/documentation/developer">Developer Docs</a></li>
+              <li class="mb-2"><a class="text-white" href="https://unlimited3d.com/documentation/api">API Docs</a></li>
+              <li class="mb-2"><a class="text-white" href="https://unlimited3d.com/documentation/3d">3D Docs</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <h6>Connect</h6>
+            <ul class="lists">
+              <li class="mb-2"><a class="text-white" href="https://www.linkedin.com/company/threedium/">Linkedin</a></li>
+              <li class="mb-2"><a class="text-white" href="https://twitter.com/Threedium">Twitter</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.instagram.com/threedium3d/">Instagram</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.youtube.com/channel/UCO6WXEwHrtWHUzBxzvr3XdA">YouTube</a></li>
+              <li class="mb-2"><a class="text-white" href="https://linktr.ee/threedium">LInkTree</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="copyRights text-center pt-4 mt-5">
+              <p><i class="fa-regular fa-copyright"></i> 2022, Threedium LTD. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </footer>
+   <!-- end footer  -->
+ </main>
+ <!-- jewelry-watches-page -->
+</body>
+<!-- js files  -->
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="../js/main.js"></script>
+</html>

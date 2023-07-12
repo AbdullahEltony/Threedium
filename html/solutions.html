@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solutions | Threedium</title>
+    <link rel="shortcut icon" href="https://www.threedium.io/hubfs/Favicon-DarkBlue.png">
+     <!-------  css files  ------->
+     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+     <link rel="stylesheet" href="../css/all.min.css">
+     <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- statrt header  -->
+  <header class="">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="header__logo">
+        <a href="index.html"><img src="../All_images/Threedium-logo.svg" alt=""></a>
+      </div>
+      <div class="navbar d-flex justify-content-between align-items-center">
+        <ul class="header__minue d-flex">
+          <li class="minue__item minue__item-dropdown">
+            <a class="item-link">INDUSTRIES 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+            <ul class="dropdown-minue">
+              <h5 class="text-black-50 my-3">CATIGORY</h5>
+              <li><a href="watches_jewelrys.html">Watches & Jewelry</a></li>
+              <li><a href="fashion.html">Fashion & Accessories</a></li>
+              <li><a href="furniture.html">Home & Furniture</a></li>
+              <li><a href="automative.html">Automotive & Furniture</a></li>
+              <li><a href="cpg.html">CPG/FMCG</a></li>
+              <li><a href="electronic.html">Electronics</a></li>
+              <li><a href="metaverse.html">Metaverse as a Service</a></li>
+            </ul>
+          </a>
+        </li>
+        <li class="minue__item"><a href="products.html" class="item-link">PRODUCTS</a></li>
+        <li class="minue__item"><a href="solutions.html" class="item-link"> SOLUTIONS</a></li>
+        <li class="minue__item"><a href="about.html" class="item-link">ABOUT</a></li>
+        </ul>
+        <button type="button" class="btn main-btn"><a href="contact.html">Book A Demo</a></button>
+      </div>
+
+        <button class="bar-btn d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i> </button>
+      
+    </div>
+  </header>
+
+  <!-- offCanvas  -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel"></h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body px-0">
+    <div>
+      <ul>
+        <li class="item item-dropdown" onclick="show_minue(this)">
+          <a href="#" class="item-link d-flex align-items-center"><span>INDUSTRIES</span> 
+            <svg class="ms-auto fw-semibold" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
+          </a>
+        </li>
+        
+        <ul class="minue">
+        <h5 class="item">CATIGORY</h5>
+        <li class="item"><a href="watches_jewelrys.html" class="item-link">Watches & Jewelry</a></li>
+        <li class="item"><a href="fashion.html" class="item-link">Fashion & Accessories</a></li>
+        <li class="item"><a href="furniture.html" class="item-link">Home & Furniture</a></li>
+        <li class="item"><a href="automative.html" class="item-link">Automotive & Furniture</a></li>
+        <li class="item"><a href="cpg.html" class="item-link">CPG/FMCG</a></li>
+        <li class="item"><a href="electronic.html" class="item-link">Electronics</a></li>
+        <li class="item"><a href="metaverse.html" class="item-link">Metaverse as a Service</a></li>
+        </ul>
+        <li class="item"><a href="products.html" class="item-link">PRODUCTS</a></li>
+        <li class="item"><a href="solutions.html" class="item-link"> SOLUTIONS</a></li>
+        <li class="item mb-3"><a href="about.html" class="item-link">ABOUT</a></li>
+      </ul>
+      <button type="button" class="btn main-btn ms-2"><a href="contact.html">BOOK A DEMO</a></button>
+    </div>
+  </div>
+  </div>
+  <!-- end header  -->
+
+  <!-- move to top button  -->
+  <button type="button" class="btn" id="movTop" onclick="movTop()"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- start solutions page  -->
+  <section id="Product" class="mian-banner">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 col-sm-12">
+          <div class="Home__text-content mt-4 text-center text-md-start hide-1">
+            <h1 class="mb-4">We are avid <br> <span class="mx-auto mx-md-0 d-inline">innovators</span> of 3D Tech.</h1>
+            <p>We create products that fit to all industries and businesses, no matter where you are on your 3D eCommerce journey - we cater to all.
+            </p>
+            <button type="button" class="btn main-btn mt-5"><a href="contact.html">TALKE TO AN EXPERT</a></button>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 order-first order-md-last overflow-hidden">
+          <div style="height:500px;border-radius:10px;">
+            <iframe style="display:block;margin:0;width:100%;height:100%;border:none;overflow:hidden" src="https://demo.threedium.co.uk/website/watch/?v=0.2"></iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <section id="platform" class="banner-2 blue-bg">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <video class ="rounded" width="100%" height="100%" preload="none"      muted="" loop="" autoplay="" playsinline="">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/Carmina%20Materials.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start ps-0 ps-md-2 ps-lg-5">
+            <h6>3D CONFIGURATORS</h6>
+            <h2 class="fs-1 fw-bold">Provide interactivity with your products online.</h2>
+            <p class="mb-5">The leading 3D viewer helps your company realize the next step in digital e-commerce by creating high-quality digital twins of your products.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- augmented-reality  -->
+  <section id="reality" class="banner-1">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start pe-0 pe-lg-5 pe-md-2">
+            <h6>AUGMENTED REALITY</h6>
+            <h2 class="fs-1 fw-bold">Allow customers to see your products in their space.</h2>
+            <p class="mb-5">Turn any 3D model into an Augmented Reality Experience<br><br>
+                Publish bespoke AR solutions in just minutes. No extra plugins, or app needed. Just click, explore and enjoy. </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 order-first order-md-last">
+          <div class="viewer-video mb-5 mb-sm-0">
+           <img src="../All_images/Augmented Reality (1).webp" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- adds section  -->
+  <section id="Adds" class="banner-2">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <video class ="rounded" width="100%" height="100%" preload="none"      muted="" loop="" autoplay="" playsinline="">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Homepage%20Assets/Homepage-Immersive.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start ps-0 ps-md-2 ps-lg-5">
+            <h6>INTERACTIVE BANNER ADS</h6>
+            <h2 class="fs-1 fw-bold">Make your marketing campaigns more engaging.</h2>
+            <p class="mb-5">Allow customers to fully experience products as part of your advertising. Improve engagement and click-through rates as they explore and interact with products directly from your ads.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- show product structure  -->
+  <section id="product-structure" class="banner-1">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start pe-0 pe-lg-5 pe-md-2">
+            <h6>EXPLOSIVE VIEW</h6>
+            <h2 class="fs-1 fw-bold">Show your products’ structure.</h2>
+            <p class="mb-5">Animated movement positions the parts of your product so that they are exploded into full view— allowing for an incredible amount of detail to be highlighted in a single 3D experience.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 order-first order-md-last">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <video width="100%" height="100%" preload="none" muted="" loop="" autoplay="" playsinline="">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Solutions%20Assets/NB%20Product%20Explorer%20SQUARE.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- tray on products  -->
+  <section id="trying" class="banner-2">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <video class ="rounded" width="100%" height="100%" preload="none"      muted="" loop="" autoplay="" playsinline="">
+              <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Solutions%20Assets/Try-On-Crop.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start ps-0 ps-md-2 ps-lg-5">
+            <h6>TRY-ON PRODUCTS</h6>
+            <h2 class="fs-1 fw-bold">Enable personal experiences with your products.</h2>
+            <p class="mb-5">Reduce returns, increase engagement and improve conversions with interactive customization and virtual try-on.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- model animation  -->
+  <section id="model-animation" class="banner-1">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start pe-0 pe-lg-5 pe-md-2">
+            <h6>3D MODEL ANIMATION
+            </h6>
+            <h2 class="fs-1 fw-bold">Showcase how your products work.</h2>
+            <p class="mb-5">Use dynamic transitions to focus attention on specific details. Use pre-set positioning and zoom to showcase your products in a more immersive, interactive way.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 order-first order-md-last">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <video width="100%" height="100%" preload="none" muted="" loop="" autoplay="" playsinline="" class="rounded">
+              <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Industry%20Electronics%20Assets/Bruvi.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- hotspot animation  -->
+  <section id="hotspot-animation" class="banner-2">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <video class ="rounded" width="100%" height="100%" preload="none"      muted="" loop="" autoplay="" playsinline="">
+              <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/ProductExplorer-Peekaboo.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start ps-0 ps-md-2 ps-lg-5">
+            <h6>HOTSPOT/ANNOTATIONS</h6>
+            <h2 class="fs-1 fw-bold">Share key details about your products.</h2>
+            <p class="mb-5">Use hot spots and annotations to recreate an in-store sales experience, guiding customers and engage them with important product features.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- custom loaders  -->
+  <section id="custom-loader" class="banner-1">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start pe-0 pe-lg-5 pe-md-2">
+            <h6>CUSTOM LOADERS
+            </h6>
+            <h2 class="fs-1 fw-bold">Brand your loader for the complete look.</h2>
+            <p class="mb-5">Add a fast-loading animation at the onset of the 3D experience to draw attention and demonstrate the interactivity they are about to see.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 order-first order-md-last">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <video width="100%" height="100%" preload="none" muted="" loop="" autoplay="" playsinline="" class="rounded">
+              <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Solutions%20Assets/Porsche%20Loader.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="video-inimation" class="banner-2">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 col-sm-12">
+            <div class="viewer-video mb-5 mb-sm-0">
+              <video class ="rounded" width="100%" height="100%" preload="none"      muted="" loop="" autoplay="" playsinline="">
+                <source src="https://threedium.io/hubfs/Threedium.io%20Website%20Assets/Solutions%20Assets/CGI%20Animation.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="info text-center text-sm-start ps-0 ps-md-2 ps-lg-5">
+              <h6>CGI VIDEO ANIMATION</h6>
+              <h2 class="fs-1 fw-bold">Create marketable 3D video content.</h2>
+              <p class="mb-5">Leverage the 3D asset to create beautiful cinematographic scenes fit for a television advertisement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="solution-hero" class="eCommerce-video">
+      <div class="container">
+        <div class="row align-items-center hide-1">
+          <div class="col-sm-6 col-12">
+            <div class="eCommerce-video-title position-relative">
+              <h1>
+                Let’s create<br> <span class="d-inline">the future</span> of 3D eCommerce together.</h1>
+            </div>
+          </div>
+          <div class="col-sm-6 col-12 d-none d-sm-block">
+            <div class="eCommerce-video-info">
+              <p class="mb-md-5 m-2">Unlimited3D from Threedium offers a fully integrated suite of 3D and AR tools designed for modelers, developers and marketers— no matter where you are in your 3D journey.</p>
+              <button type="button" class="btn main-btn bg-black">SIGN UP NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- meatcommerse partiner  -->
+  <section id="metacommerse-partiner" class="py-5">
+    <div class="container">
+      <div class="sponsor__title text-center mb-4 hide-1">
+          <p class="fw-bold mb-0">METACOMMERCE PARTNERS</p>
+          <span class="after"></span>
+      </div>
+      <div class="owl-carousel owl-theme text-white text-center position-static hide-1">
+          <div class="meta-partiner">
+            <img src="../All_images/metapart1.png" alt="">     
+           </div>
+          <div class="meta-partiner">
+            <img src="../All_images/metapart2.png" alt="">     
+           </div>
+          <div class="meta-partiner">
+            <img src="../All_images/metapart3.png" alt="">     
+           </div>
+          <div class="meta-partiner">
+            <img src="../All_images/metapart4.png" alt="">     
+           </div>
+          <div class="meta-partiner">
+            <img src="../All_images/metapart5.webp" alt="">     
+           </div>
+          <div class="meta-partiner">
+            <img src="../All_images/metapart6.png" alt="">     
+           </div>
+          
+      </div>
+  </div>
+  </section>
+
+  <!-- MetaCommerse experience  -->
+  <section id="meat-experience" class="banner-1 yellow-bg">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start pe-0 pe-lg-5 pe-md-2">
+            <h6>METACOMMERSE EXPERIENCES
+            </h6>
+            <h2 class="fs-1 fw-bold">Building in the new digital landscape.</h2>
+            <p class="mb-5">Ready to build your brand's virtual headquarters? Let's schedule a meeting in the metaverse and we can show you around a bit.</p>
+            <button type="button" class="btn main-btn bg-black"><a href="contact.html">INQUIRE MORE</a></button>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 order-first order-md-last">
+          <div class="viewer-video mb-5 mb-md-0">
+            <img src="../All_images/Mask group-3.webp" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- start footer  -->
+  <footer class="pt-5 pb-3">
+    <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <div class="logo-text">
+              <img src="../All_images/Threedium-logo.svg" class="img-fluid" alt="">
+              <p class="">London |  Washington D.C.<br>
+                Paris | Belgrade</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <h6>Products</h6>
+            <ul class="lists">
+              <li class="mb-2"><a class="text-white" href="products.html">3D Engine</a></li>
+              <li class="mb-2"><a class="text-white" href="products.html">3D Veiwer</a></li>
+              <li class="mb-2"><a class="text-white" href="solutions.html">AR Experiences</a></li>
+              <li class="mb-2"><a class="text-white" href="products.html">Digital Walkthroughs</a></li>
+              <li class="mb-2"><a class="text-white" href="solutions.html">3D Banner Ads</a></li>
+              <li class="mb-2"><a class="text-white" href="metaverse.html">Metaverse</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <h6>Company</h6>
+            <ul class="lists">
+              <li class="mb-2"><a class="text-white" href="about.html">About</a></li>
+              <li class="mb-2"><a class="text-white" href="career.html">Careers</a></li>
+              <li class="mb-2"><a class="text-white" href="contact.html">Contact</a></li>
+              <li class="mb-2"><a class="text-white" href="blog.html">Blog</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.threedium.io/terms">Term of Use</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.threedium.io/privacy">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <h6>Developers</h6>
+            <ul class="lists">
+              <li class="mb-2"><a class="text-white" href="login.html">Platform login</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.youtube.com/playlist?list=PL7LjKoktKK8mhXWHBjWADZMegaH-aAQD9">Toutorials</a></li>
+              <li class="mb-2"><a class="text-white" href="#">FAQs</a></li>
+              <li class="mb-2"><a class="text-white" href="https://unlimited3d.com/documentation/developer">Developer Docs</a></li>
+              <li class="mb-2"><a class="text-white" href="https://unlimited3d.com/documentation/api">API Docs</a></li>
+              <li class="mb-2"><a class="text-white" href="https://unlimited3d.com/documentation/3d">3D Docs</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <h6>Connect</h6>
+            <ul class="lists">
+              <li class="mb-2"><a class="text-white" href="https://www.linkedin.com/company/threedium/">Linkedin</a></li>
+              <li class="mb-2"><a class="text-white" href="https://twitter.com/Threedium">Twitter</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.instagram.com/threedium3d/">Instagram</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.youtube.com/channel/UCO6WXEwHrtWHUzBxzvr3XdA">YouTube</a></li>
+              <li class="mb-2"><a class="text-white" href="https://linktr.ee/threedium">LInkTree</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="copyRights text-center pt-4 mt-5">
+              <p><i class="fa-regular fa-copyright"></i> 2022, Threedium LTD. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </footer>
+   <!-- end footer  -->
+
+</body>
+<!-- js files  -->
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="../js/main.js"></script>
+</html>

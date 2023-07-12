@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>careers | Threedium</title>
+    <link rel="shortcut icon" href="https://www.threedium.io/hubfs/Favicon-DarkBlue.png">
+     <!-------  css files  ------->
+     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+     <link rel="stylesheet" href="../css/all.min.css">
+     <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+   <!-- statrt header  -->
+   <header class="">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="header__logo">
+        <a href="index.html"><img src="../All_images/Threedium-logo.svg" alt=""></a>
+      </div>
+      <div class="navbar d-flex justify-content-between align-items-center">
+        <ul class="header__minue d-flex">
+          <li class="minue__item minue__item-dropdown">
+            <a class="item-link">INDUSTRIES 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+            <ul class="dropdown-minue">
+              <h5 class="text-black-50 my-3">CATIGORY</h5>
+              <li><a href="watches_jewelrys.html">Watches & Jewelry</a></li>
+              <li><a href="fashion.html">Fashion & Accessories</a></li>
+              <li><a href="furniture.html">Home & Furniture</a></li>
+              <li><a href="automative.html">Automotive & Furniture</a></li>
+              <li><a href="cpg.html">CPG/FMCG</a></li>
+              <li><a href="electronic.html">Electronics</a></li>
+              <li><a href="metaverse.html">Metaverse as a Service</a></li>
+            </ul>
+          </a>
+        </li>
+        <li class="minue__item"><a href="products.html" class="item-link">PRODUCTS</a></li>
+        <li class="minue__item"><a href="solutions.html" class="item-link"> SOLUTIONS</a></li>
+        <li class="minue__item"><a href="about.html" class="item-link">ABOUT</a></li>
+        </ul>
+        <button type="button" class="btn main-btn"><a href="contact.html">Book A Demo</a></button>
+      </div>
+
+        <button class="bar-btn d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i> </button>
+      
+    </div>
+  </header>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel"></h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body px-0">
+      <div>
+        <ul>
+          <li class="item item-dropdown" onclick="show_minue(this)">
+            <a class="item-link d-flex align-items-center"><span>INDUSTRIES</span> 
+              <svg class="ms-auto fw-semibold" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+            </a>
+          </li>
+          
+          <ul class="minue">
+          <h5 class="item">CATIGORY</h5>
+          <li class="item"><a href="watches_jewelrys.html" class="item-link">Watches & Jewelry</a></li>
+          <li class="item"><a href="fashion.html" class="item-link">Fashion & Accessories</a></li>
+          <li class="item"><a href="furniture.html" class="item-link">Home & Furniture</a></li>
+          <li class="item"><a href="automative.html" class="item-link">Automotive & Furniture</a></li>
+          <li class="item"><a href="cpg.html" class="item-link">CPG/FMCG</a></li>
+          <li class="item"><a href="electronic.html" class="item-link">Electronics</a></li>
+          <li class="item"><a href="metaverse.html" class="item-link">Metaverse as a Service</a></li>
+          </ul>
+          <li class="item"><a href="products.html" class="item-link">PRODUCTS</a></li>
+          <li class="item"><a href="solutions.html" class="item-link"> SOLUTIONS</a></li>
+          <li class="item mb-3"><a href="about.html" class="item-link active-line">ABOUT</a></li>
+        </ul>
+        <button type="button" class="btn main-btn ms-2"><a href="contact.html">Book A Demo</a></button>
+      </div>
+    </div>
+    </div>
+    <!-- end header  -->
+  
+    <!-- move to top button  -->
+    <button type="button" class="btn" id="movTop" onclick="movTop()"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- start careers page  -->
+  <sectoin id="about-banner" class="main-banner">
+    <div class="container">
+      <div class="Home__text-content mt-4 text-center text-md-start hide-1">
+        <h1 class="mb-4">We are <br> <span class="mx-auto mx-md-0 d-inline">Hiring</span></h1>
+      </div>
+    </div>
+  </sectoin>
+
+  <!-- team of innevator  -->
+  <section id="teamInnovator" class="banner-1">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start pe-0 pe-lg-5 pe-md-2">
+            <h6>OUR PEOPLE</h6>
+            <h2 class="fs-1 fw-bold">Team of innovators, digital experts and forward thinkers.</h2>
+            <p class="mb-5">More than 30 employees and partners with offices in UK, US, and Europe. Threedium really got started as— 'the crazy guys trying to publish 3D on the web', back when no one thought it was possible. Fast forward to 2022— Threedium is building the backbone of the 3D internet.</p>
+            <button type="button" class="btn main-btn bg-black"><a href="contact.html">CONNECT WITH US</a></button>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 order-first order-md-last">
+          <div class="viewer-video mb-5 mb-md-0">
+           <img src="../All_images/About-team.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sastinability" class="banner-2 py-5">
+    <div class="container">
+      <div class="row align-items-center pt-5 hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="viewer-video mb-5 mb-sm-0">
+            <img src="../All_images/Sustainability op3.png" class="img-fluid w-100 rounded" alt="">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start ps-0 ps-md-2 ps-lg-5">
+            <h6>OUR VALUES</h6>
+            <h2 class="fs-1 fw-bold">Sustainability, Innovation and Transparency.</h2>
+            <p class="mb-5">We have changed the way brands bring 3D to life on the web.<br><br>
+
+              Brands trust us because of our impeccable quality and proprietary tech, helping keep your 3D digital twins safe and secure.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- partiner that share our value -->
+  <section id="partiner-share" class="py-5 position-relative bg-darkBlue">
+    <div class="container pt-5">
+      <div class="sponsor__title text-center mb-4 hide-1">
+          <p class="fw-bold mb-0">PARTNERS THAT SHARE OUR VALUES</p>
+          <span class="after"></span>
+      </div>
+      <div class="owl-carousel owl-theme text-white text-center position-static hide-1">
+          <div class="meta-partiner">
+            <img src="../All_images/AlphaAR.png" class="w-160" alt="">     
+           </div>
+          <div class="meta-partiner">
+            <img src="../All_images//BullFrog.webp" class="w-160" alt="">     
+           </div>
+          <div class="meta-partiner">
+            <img src="../All_images/PWC.webp" class="w-160" alt="">     
+           </div>
+          <div class="meta-partiner">
+            <img src="../All_images/RarerThings.png" class="w-160" alt="">     
+           </div>
+          <div class="meta-partiner">
+            <img src="../All_images/metapart1.png" class="w-160" alt="">     
+           </div>
+          <div class="meta-partiner">
+            <img src="../All_images/metapart2.png" class="w-160" alt="">     
+           </div>
+          <div class="meta-partiner">
+            <img src="../All_images/metapart3.png" class="w-160" alt="">     
+           </div>
+          
+      </div>
+    </div>
+  </section>
+
+  <!-- our vision  -->
+  <section id="ourVision" class="banner-1">
+    <div class="container">
+      <div class="row align-items-center hide-1">
+        <div class="col-md-6 col-sm-12">
+          <div class="info text-center text-sm-start pe-0 pe-lg-5 pe-md-2">
+            <h6>OUR VISION</h6>
+            <h2 class="fs-1 fw-bold">Accessibility of 3D Technologies for everyone.</h2>
+            <p class="mb-5">We make immersive shopping experience tools accessible, affordable and easy-to-build for everyone. Regardless of their level of tech and creative ability, anyone should be able to build and launch high-impact online experiences on-the-go.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 order-first order-md-last">
+          <div class="viewer-video mb-5 mb-md-0">
+            <img src="../All_images/Sustainability op1.png" class="img-fluid w-100" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- start Blog  -->
+  <section id="Blog">
+    <div class="container">
+      <div class="Blog__title mb-5 hide-1">
+        <h6>THE WEB3D BLOG COVERS THE LATEST IN 3D, AR AND THE METAVERSE.</h6>
+        <h2 class="fs-1 fw-bold text-white">News, Blog & Events</h2>
+      </div>
+      <div class="owl-carousel owl-theme text-white text-center position-static">
+        <div class="card text-start px-4" style="background-color:transparent">
+          <img src="../All_images/blog-1.webp" class="card-img-top" alt="...">
+          <div class="card-body mt-4">
+            <a href="#"><h5 class="card-title text-white fw-bold fs-4">The Immersive Internet and the Future of Content Creation</h5></a>
+            <p class="card-text">In a recent interview with Mike Charalambous, CEO of Threedium we delve into the company's groundbreaking mission to revolutionize the web through...</p>
+          </div>
+        </div>
+        <div class="card text-start px-4" style="background-color:transparent">
+          <img src="../All_images/blog-2.webp" class="img-fluid" alt="...">
+          <div class="card-body mt-4">
+            <a href="#"><h5 class="card-title text-white fw-bold fs-4">Top 8 3D and AR Providers</h5></a>
+            <p class="card-text">We're in the midst of a 3D and AR revolution. And like any good revolution, it's not going to happen overnight. It's not just about better graphics...</p>
+          </div>
+        </div>
+        <div class="card text-start px-4" style="background-color:transparent">
+          <img src="../All_images/blog-3.webp" class="img-fluid" alt="...">
+          <div class="card-body mt-4">
+            <a href="#"><h5 class="card-title text-white fw-bold fs-4">Threedium Hosts Global Brands During Metaverse Fashion Week</h5></a>
+            <p class="card-text">Threedium will host a collection of branded boutique shops along with 3D wearables from global brands participating in Metaverse Fashion Week</p>
+          </div>
+        </div>
+        <div class="card text-start px-4" style="background-color:transparent">
+          <img src="../All_images/blog-4.webp" class="img-fluid" alt="...">
+          <div class="card-body mt-4">
+            <a href="#"><h5 class="card-title text-white fw-bold fs-4">3D, AR, NFTs &amp; The Metaverse:Why Brands Should Invest Now</h5></a>
+            <p class="card-text">The past 18 months have continued to test and push nearly every industry to change and adapt to our increasingly digital world. The digital...</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+   <!-- end Blog  -->
+    <!-- start footer  -->
+    <footer class="pt-5 pb-3">
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-12">
+              <div class="logo-text">
+                <img src="../All_images/Threedium-logo.svg" class="img-fluid" alt="">
+                <p class="">London |  Washington D.C.<br>
+                  Paris | Belgrade</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-6">
+              <h6>Products</h6>
+              <ul class="lists">
+                <li class="mb-2"><a class="text-white" href="products.html">3D Engine</a></li>
+                <li class="mb-2"><a class="text-white" href="products.html">3D Veiwer</a></li>
+                <li class="mb-2"><a class="text-white" href="solutions.html">AR Experiences</a></li>
+                <li class="mb-2"><a class="text-white" href="products.html">Digital Walkthroughs</a></li>
+                <li class="mb-2"><a class="text-white" href="solutions.html">3D Banner Ads</a></li>
+                <li class="mb-2"><a class="text-white" href="metaverse.html">Metaverse</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-6">
+              <h6>Company</h6>
+              <ul class="lists">
+                <li class="mb-2"><a class="text-white" href="about.html">About</a></li>
+                <li class="mb-2"><a class="text-white" href="career.html">Careers</a></li>
+                <li class="mb-2"><a class="text-white" href="contact.html">Contact</a></li>
+                <li class="mb-2"><a class="text-white" href="blog.html">Blog</a></li>
+                <li class="mb-2"><a class="text-white" href="https://www.threedium.io/terms">Term of Use</a></li>
+              <li class="mb-2"><a class="text-white" href="https://www.threedium.io/privacy">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-6">
+              <h6>Developers</h6>
+              <ul class="lists">
+                <li class="mb-2"><a class="text-white" href="login.html">Platform login</a></li>
+                <li class="mb-2"><a class="text-white" href="https://www.youtube.com/playlist?list=PL7LjKoktKK8mhXWHBjWADZMegaH-aAQD9">Toutorials</a></li>
+                <li class="mb-2"><a class="text-white" href="#">FAQs</a></li>
+                <li class="mb-2"><a class="text-white" href="https://unlimited3d.com/documentation/developer">Developer Docs</a></li>
+                <li class="mb-2"><a class="text-white" href="https://unlimited3d.com/documentation/api">API Docs</a></li>
+                <li class="mb-2"><a class="text-white" href="https://unlimited3d.com/documentation/3d">3D Docs</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-6">
+              <h6>Connect</h6>
+              <ul class="lists">
+                <li class="mb-2"><a class="text-white" href="https://www.linkedin.com/company/threedium/">Linkedin</a></li>
+                <li class="mb-2"><a class="text-white" href="https://twitter.com/Threedium">Twitter</a></li>
+                <li class="mb-2"><a class="text-white" href="https://www.instagram.com/threedium3d/">Instagram</a></li>
+                <li class="mb-2"><a class="text-white" href="https://www.youtube.com/channel/UCO6WXEwHrtWHUzBxzvr3XdA">YouTube</a></li>
+                <li class="mb-2"><a class="text-white" href="https://linktr.ee/threedium">LInkTree</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="copyRights text-center pt-4 mt-5">
+                <p><i class="fa-regular fa-copyright"></i> 2022, Threedium LTD. All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </footer>
+     <!-- end footer  -->
+</body>
+<!-- js files  -->
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="../js/main.js"></script>
+</html>

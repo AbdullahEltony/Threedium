@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0072)http://online-services.fayoum.edu.eg/stud_show_result/StudentResult.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	نتائج الامتحانات
+</title><link rel="shortcut icon" href="http://online-services.fayoum.edu.eg/stud_show_result/images/favicon.ico">
+    <style type="text/css">
+        .style1
+        {
+            width: 96%;
+        }
+        .style6
+        {
+        }
+        .style13
+        {
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+            font-size: large;
+       
+            background-image:url('images/1111111.png');
+           
+      
+        }
+         .style14
+        {
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+            font-size: large;
+       
+          
+        }
+        .style15
+        {
+            color: #CC3300;
+        }
+        .style16
+        {
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+            font-size: x-large;
+        }
+        </style>
+    
+    <style type="text/css">
+        .style14
+        {
+            width: 113%;
+            height: 58px;
+        }
+        .style15
+        {
+            width: 682px;
+        }
+        .style27
+        {
+        }
+        .style29
+    {
+        width: 684px;
+    }
+        .style35
+        {
+            width: 139%;
+        }
+        .style25
+        {
+            color: #990000;
+            }
+        .style28
+        {
+            color: #9C0000;
+        }
+        .style36
+        {
+            height: 54px;
+        }
+    .style37
+    {
+        width: 140%;
+    }
+        .style38
+        {
+            width: 219px;
+        }
+        .style39
+        {
+            height: 23px;
+        }
+    </style>
+</head>
+<body bgcolor="#d6d7de">
+
+    <form method="post" action="http://online-services.fayoum.edu.eg/stud_show_result/StudentResult.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./second year digree_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./second year digree_files/ScriptResource.axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="./second year digree_files/ScriptResource(1).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A8450251">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAIFx++DAxXMPENVGyeauqv23ZGYXQIbqUYkAWqK/FuFsN01eC/+5yanRW+AJiAcFV/dxRNPy0xJQZzCYm55qR8+">
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <div>
+     <table class="style1">
+            <tbody><tr>
+                <td class="style6" bgcolor="#D6D7DE" style="background-image: url(&#39;images/banner.png&#39;); background-repeat: no-repeat; background-position:center">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td class="style13">
+                  
+                    
+    <table class="style14">
+        <tbody><tr>
+            <td class="style15">
+                &nbsp;</td>
+            <td class="style29">
+                <table class="style35">
+                    <tbody><tr>
+                        <td colspan="4" style="text-decoration: underline; color: #0000FF; font-size: x-large">
+                            جميع النتائج المعلنة على هذه الصفحة&nbsp; لا تعتبر مستند قانونى يعتد به</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                        <td>
+                            &nbsp;</td>
+                        <td class="style38">
+                            &nbsp;</td>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span id="ContentPlaceHolder2_Seatnumlbl" style="color: #800000">رقم الجلوس : 20220101</span>
+                        </td>
+                        <td>
+                            <span id="ContentPlaceHolder2_deprtLbl" class="style25">القسم :    كلية الحاسبات والذكاء الاصطناعي</span>
+                        </td>
+                        <td class="style38">
+                            <span id="ContentPlaceHolder2_Semsterlbl" class="style24" style="font-size: large; color: #800000;">المستوي الثاني / فصل دراسي ثاني</span>
+                        </td>
+                        <td>
+                            <span id="ContentPlaceHolder2_Namelbl" class="style25" style="text-align: left;">اسم الطالب : عبد الله محمد قرنى عويس</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="style36" dir="rtl">
+                            <span id="ContentPlaceHolder2_Ratelbl" class="style28">التقدير :  B</span>
+                        </td>
+                        <td class="style36">
+                            <span id="ContentPlaceHolder2_PhaseRatelbl" class="style28">أجمالى النقاط :  3.04</span>
+                        </td>
+                         <td class="style36">
+                            <span id="ContentPlaceHolder2_total_credit" class="style28"> أجمالى الساعات : 36.00</span>
+                        </td>
+                        <td class="style36">
+                            <span id="ContentPlaceHolder2_Totaldeglbl" class="style28">مجموع الفرقة  : 1177.0</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="style39" dir="rtl">
+                        </td>
+                        <td class="style39" colspan="2">
+                            <span id="ContentPlaceHolder2_Phasecase" class="style28" style="color:Blue;"></span>
+                        </td>
+                        <td class="style39">
+                            &nbsp;</td>
+                    </tr>
+                    </tbody></table>
+            </td>
+            <td class="style15">
+                &nbsp;</td>
+            <td class="style15">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="style15" dir="rtl">
+                &nbsp;</td>
+            <td class="style29" dir="rtl">
+                <div>
+	<table cellspacing="0" cellpadding="4" id="ContentPlaceHolder2_GridView1" style="color:#333333;height:237px;width:953px;border-collapse:collapse;">
+		<tbody><tr style="color:White;background-color:#507CD1;font-weight:bold;">
+			<th scope="col">اسم المقرر</th><th scope="col">حالة الطالب بالمقرر</th><th scope="col">الدرجة</th><th scope="col">التقدير</th>
+		</tr><tr style="background-color:#EFF3FB;">
+			<td>الهياكل المنفصلة</td><td>مستجد</td><td>62.0</td><td>مقبول+</td>
+		</tr><tr style="background-color:White;">
+			<td>البرمجة الشيئية</td><td>مستجد</td><td>58.0</td><td>مقبول</td>
+		</tr><tr style="background-color:#EFF3FB;">
+			<td>أسس نظم المعلومات</td><td>مستجد</td><td>78.0</td><td>جيد جدا</td>
+		</tr><tr style="background-color:White;">
+			<td>رياضيات (3)</td><td>مستجد</td><td>77.0</td><td>جيد جدا</td>
+		</tr><tr style="background-color:#EFF3FB;">
+			<td>أخلاقيات المهنة</td><td>مستجد</td><td>80.0</td><td>جيد جدا+</td>
+		</tr><tr style="background-color:White;">
+			<td>معالجة الإشاراة الرقمية</td><td>مستجد</td><td>77.0</td><td>جيد جدا</td>
+		</tr><tr style="background-color:#EFF3FB;">
+			<td>الإدارة الحديثة (متطلب جامعة اختياري)</td><td>مستجد</td><td>85.0</td><td>ممتاز</td>
+		</tr><tr style="background-color:White;">
+			<td>هياكل البيانات</td><td>مستجد</td><td>74.0</td><td>جيد+</td>
+		</tr><tr style="background-color:#EFF3FB;">
+			<td>ادارة مشروع</td><td>مستجد</td><td>66.0</td><td>جيد</td>
+		</tr><tr style="background-color:White;">
+			<td>تحليل النظم والتصميم</td><td>مستجد</td><td>88.0</td><td>ممتاز</td>
+		</tr><tr style="background-color:#EFF3FB;">
+			<td>تنظيم الملفات</td><td>مستجد</td><td>87.0</td><td>ممتاز</td>
+		</tr><tr style="background-color:White;">
+			<td>الاحتمال والاحصاء</td><td>مستجد</td><td>85.0</td><td>ممتاز</td>
+		</tr><tr style="background-color:#EFF3FB;">
+			<td>بحوث العمليات</td><td>مستجد</td><td>87.0</td><td>ممتاز</td>
+		</tr><tr style="background-color:White;">
+			<td>العلوم المستقبلية (متطلب جامعة اختياري)</td><td>مستجد</td><td>91.0</td><td>ممتاز+</td>
+		</tr><tr style="background-color:#EFF3FB;">
+			<td>ريادة الأعمال (متطلب جامعة اختياري)</td><td>مستجد</td><td>82.0</td><td>جيد جدا+</td>
+		</tr>
+	</tbody></table>
+</div>
+            </td>
+            <td class="style15" dir="rtl">
+                &nbsp;</td>
+            <td class="style15" dir="rtl">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="style15">
+                &nbsp;</td>
+            <td class="style29">
+                
+            </td>
+            <td class="style15">
+                &nbsp;</td>
+            <td class="style15">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="style15">
+                &nbsp;</td>
+            <td class="style29">
+                <table class="style37">
+                    <tbody><tr>
+                        <td>
+                            <span id="ContentPlaceHolder2_Label1" style="color: #800000"></span>
+                        </td>
+                        <td>
+                            <input type="submit" name="ctl00$ContentPlaceHolder2$EmailSenbtn" value="طباعة" onclick="window.print();" id="ContentPlaceHolder2_EmailSenbtn" style="background-color:#527DD6;height:35px;width:122px;color: #FFFFFF; font-size: large; font-weight: 700">
+                        </td>
+                        <td dir="rtl">
+                            <span id="ContentPlaceHolder2_Emaillbl" style="color: #0033CC">البريد الالكترونى الخاص بك :  	am6959@fayoum.edu.eg	</span>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+            <td class="style15">
+                &nbsp;</td>
+            <td class="style15">
+                &nbsp;</td>
+        </tr>
+    </tbody></table>
+
+                  
+                </td>
+            </tr>
+            <tr>
+                <td class="style16" bgcolor="#D6D7DE">
+                  
+                    <span class="style15">جميع الحقوق لمركز نظم المعلومات الادارية بجامعة الفيوم</span><a href="http://www.fayoum.edu.eg/mis/"><span class="style15"> </span> </a>  </td>
+            </tr>
+        </tbody></table>
+    </div>
+    </form>
+
+
+</body></html>
