@@ -1,3 +1,2 @@
 
-
 ![Uploading furniture.gif…]()
